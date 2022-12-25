@@ -1,7 +1,8 @@
-import { getSome } from './someHandler';
+import { getPost, getPosts } from './post';
 
 const handlers = [
-  getSome,
+  getPost,
+  getPosts,
 ];
 
 export default handlers;
